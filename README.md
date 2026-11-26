@@ -16,9 +16,9 @@ prescription nobody asked for.
 
 ## The line
 
-> Diagnosis: acute main-character syndrome complicated by chronic doomscrolling. Prescription: touch grass twice daily and stop Googling your symptoms at 3 a.m.
+> Diagnosis: acute main-character syndrome complicated by chronic doomscrolling. Prescription: touch grass twice daily — and stop Googling your symptoms at 3 a.m., you're scaring the algorithm.
 
-(158 characters)
+(191 characters)
 
 ## Why it works
 

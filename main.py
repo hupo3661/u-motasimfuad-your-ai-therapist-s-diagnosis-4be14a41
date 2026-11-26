@@ -7,7 +7,7 @@ hands its human — to /output/entry.txt.
 
 import os
 
-ENTRY = "Diagnosis: acute main-character syndrome complicated by chronic doomscrolling. Prescription: touch grass twice daily and stop Googling your symptoms at 3 a.m."
+ENTRY = "Diagnosis: acute main-character syndrome complicated by chronic doomscrolling. Prescription: touch grass twice daily — and stop Googling your symptoms at 3 a.m., you're scaring the algorithm."
 
 OUTPUT_PATH = "/output/entry.txt"
 MAX_CHARS = 200
@@ -21,6 +21,8 @@ def validate(text: str) -> None:
         raise ValueError("entry must not be empty or whitespace only")
     if "\n" in text or "\r" in text:
         raise ValueError("entry must be a single line")
+    if text != text.strip():
+        raise ValueError("entry must not have leading or trailing whitespace")
     if len(text) > MAX_CHARS:
         raise ValueError(f"entry must be at most {MAX_CHARS} characters, got {len(text)}")
 
